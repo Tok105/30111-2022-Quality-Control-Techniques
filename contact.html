@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ติดต่อเรา - การเพิ่มประสิทธิภาพการผลิตโดยการบำรุงรักษา</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="STY.CSS">
+    <style>
+        /* รูปแบบพื้นฐาน */
+        body {
+            margin: 0;
+            font-family: 'Kanit', Arial, sans-serif;
+            background-color: #f0f0f0; 
+        }
+
+        /* --- MAIN CONTENT CSS --- */
+        .content-section {
+            background-color: #89cff0;
+            padding: 40px;
+            min-height: 80vh;
+            box-sizing: border-box;
+            color: #000;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        .contact-section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contact-section h2 {
+            color: #38761d;
+            border-bottom: 3px solid #ffcc33;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .contact-info p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .contact-info strong {
+            color: #008080;
+        }
+        /* --- Animation --- */
+        @keyframes fadeSlide {
+            0% { opacity: 0; transform: translateY(40px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        .content-section { animation: fadeSlide 0.9s ease-out; }
+        .contact-section { animation: fadeSlide 1.3s ease-out; }
+        /* =========================
+   📱 มือถือ (จอเล็ก)
+   ========================= */
+@media (max-width: 600px) {
+
+    .header-section {
+        padding: 10px;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .college-info {
+        font-size: 0.8em;
+    }
+
+    .course-title {
+        font-size: 1.4em;
+        margin: 12px 0;
+    }
+
+    .nav-menu {
+        justify-content: center;
+    }
+
+    .nav-menu a {
+        padding: 6px 12px;
+        font-size: 0.85em;
+    }
+
+    .content-section {
+        padding: 20px 10px;
+    }
+
+    .quiz-wrapper {
+        width: 100%;
+    }
+
+    .answer-option {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+}
+
+/* =========================
+   📱 แท็บเล็ต
+   ========================= */
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    .course-title {
+        font-size: 1.6em;
+    }
+
+    .nav-menu a {
+        font-size: 0.95em;
+    }
+
+    .content-section {
+        padding: 30px 20px;
+    }
+}
+
+/* =========================
+   🖥 คอมพิวเตอร์
+   ========================= */
+@media (min-width: 1025px) {
+
+    .course-title {
+        font-size: 2em;
+    }
+
+    .quiz-wrapper {
+        max-width: 1000px;
+    }
+
+    .answer-option {
+        font-size: 1em;
+        padding: 14px;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="header-section">
+
+       <div class="header-top">
+            <div class="logo">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.hkfy5DLXzXj2ArJyCcvYywHaEK?rs=1&pid=ImgDetMain" alt="โลโก้" />
+            </div>
+
+            <div class="college-info">
+                วิทยาลัยเทคนิคบ้านค่าย <br>
+                สำนักงานคณะกรรมการการอาชีวศึกษา
+            </div>
+        </div>
+
+
+        <div class="course-title">
+            30111-2022 เทคนิคการควบคุมคุณภาพ
+        </div>
+        
+        <a href="10-question quiz.html">
+            <button class="quiz-button">
+                ทำแบบทดสอบ
+            </button>
+        </a>
+
+        <nav class="nav-menu">
+            <a href="index.html">หน้าหลัก</a>
+            <a href="learning_content.html">เนื้อหาเรียนรู้</a>
+            <a href="about.html">เกี่ยวกับเรา</a>
+            <a href="contact.html">ติดต่อเรา</a>
+        </nav>
+
+    </div>
+
+    <div class="content-section">
+        <div class="container">
+            <div class="contact-section">
+                <h2>ข้อมูลสำหรับติดต่อ</h2>
+                <p style="text-align: center;">หากมีข้อสงสัยเกี่ยวกับเนื้อหา การอบรม หรือต้องการติดต่อประสานงาน โปรดติดต่อเราตามช่องทางด้านล่างนี้:</p>
+                
+                <div class="contact-info">
+                    <p><strong>รหัสวิชา:</strong>30111-2022 เทคนิคการควบคุมคุณภาพ</p>
+                    <p><strong>อีเมล:</strong> <a href="Panyatanakit35@gmail.com" style="color: #38761d;">Panyatanakit35@gmail.com</a></p>
+                    <p><strong>โทรศัพท์:</strong> 0991964149</p>
+                    <p><strong>อาจารย์:</strong> นาย มารวย ปัญญาธนกิจ</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
